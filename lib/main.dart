@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import './constant.dart';
 import 'my_header.dart';
 import 'counters.dart';
-import 'info_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Covid 19',
+      title: 'Covid 19_kasswar',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         scaffoldBackgroundColor: kBackgroundColor,
